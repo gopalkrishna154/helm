@@ -9,7 +9,7 @@ metadata:
     component: frontend
     purpose: deployment
 spec:
-  replicas: {{ .values.deployment.replicas }}
+  replicas: {{ .Values.deployment.replicas }}
   selector:
     matchLabels:
       project: roboshop
